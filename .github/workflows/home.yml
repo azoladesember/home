@@ -35,7 +35,7 @@ jobs:
         pw: ${{ secrets.PW }}
         TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-      run: python main.py
+      run: python 2d.py
 
     - name: Jalankan Multi Script
       env:
